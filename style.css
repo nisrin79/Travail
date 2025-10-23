@@ -1,0 +1,19 @@
+ img {
+        width: 200px;
+        height: 150px;
+        object-fit: cover;
+        margin: 10px;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        transition: transform 0.3s, border-color 0.3s;
+    }
+
+    img.hovered {
+        transform: scale(1.05);
+        border-color: #63725b;
+    }
+
+    img:focus {
+        outline: none;
+        border-color: #63725b;
+    }
